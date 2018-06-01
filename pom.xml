@@ -16,7 +16,7 @@
     </properties>
 
     <name>SimpleAutomate</name>
-    <description>Automatically execute commands at set intervals</description>
+    <description>Simple and lightweight Spigot plugin that automatically executes commands at set intervals</description>
     <url>https://matthogan.co.uk</url>
     <inceptionYear>2018</inceptionYear>
 
