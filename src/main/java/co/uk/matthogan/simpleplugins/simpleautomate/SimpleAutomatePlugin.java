@@ -32,6 +32,7 @@ import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitRunnable;
 
+import java.io.File;
 import java.util.List;
 
 /**
@@ -42,8 +43,10 @@ public class SimpleAutomatePlugin extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        this.getConfig().options().copyDefaults(true);
-        this.saveDefaultConfig();
+        if (!(new File(this.getDataFolder(), "config.yml").exists())) {
+            this.getConfig().options().copyDefaults(true);
+            this.saveDefaultConfig();
+        }
 
         for (String key : this.getConfig().getKeys(false)) {
             List<String> commands = this.getConfig().getStringList(key);
