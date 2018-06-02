@@ -4,7 +4,7 @@ Simple and lightweight Spigot plugin that automatically executes commands at set
 
 ### Download
 
-[SimpleAutomate-01062018-1.0.jar](https://github.com/SimplePlugins/SimpleAutomate/releases/download/v1.0/SimpleAutomate-01062018-1.0.jar)
+[SimpleAutomate-02062018-1.1.jar]https://github.com/SimplePlugins/SimpleAutomate/releases/download/v1.1/SimpleAutomate-02062018-1.1.jar)
 
 ### Compiling
 
